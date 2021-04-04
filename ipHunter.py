@@ -20,3 +20,12 @@ response = DbIpCity.get(ip, api_key="free")
 # Joyning geografik ma'lumotlarini ekranga chiqaramiz
 print(response.city, response.region, response.country)
 print(response.latitude, response.longitude)
+
+'''
+Ma'lumotlarni json, xml yoki csv formatda ham chiqarish mumkin.
+Buning uchun mos ravishda
+response.to_xml
+response.to_json
+response.to_csv
+buyruqlaridan foydalanish mumkin.
+'''
