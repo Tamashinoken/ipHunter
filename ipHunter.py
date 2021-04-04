@@ -6,7 +6,12 @@ Ushbu dastur ishlashi uchun ip2geotools modulini o`rnatish kerak bo`ladi.
 
 pip install ip2geotools
 
-Ushbu modul va uning funksiyalari haqida help(ipgeotools) orqali ma'lumot olish mumkin
+Ushbu modul va uning funksiyalari haqida help(ipgeotools) orqali ma'lumot olish mumkin.
+
+
+ESLATMA!
+
+ip2geotools modulini pythonning 3.3 versiyasidan boshlab qo`llab-quvvatlaydi
 '''
 from ip2geotools.databases.noncommercial import DbIpCity
 
